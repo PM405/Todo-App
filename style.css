@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+
+    background: rgba(19, 19, 19, 0.3);
+    justify-self: start;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+div{
+    width: 700px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 400px;
+    background: #d0c4c4;
+    box-shadow: 31px 31px 15px 15px #3f3f3f;
+}
+
+div h1{
+    color: aqua;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+div input{
+    width: 400px;
+    height:35px ;
+    margin-left: 45px;
+    margin-top: 30px;
+    color: red;
+    padding-left: 13px;
+    background: #d0c4c4;
+    border: solid #3f3f3f;
+    font-size: larger;
+    border-radius: 1.2rem;
+    box-shadow: 5px 5px 3px 3px rebeccapurple;
+}
+input::after{
+    color:#d0c4c4;
+    border: solid #d0c4c4;
+}
+input::placeholder{
+    color: red;
+    padding-left: 20px;
+    font-size: larger;
+    font-weight: 800;
+}
+
+#add{
+    width: 100px;
+    height: 35px;
+    border-radius: 1.2rem;
+    background: blue;
+    margin: 10px;
+    color: white;
+    box-shadow: 5px 5px 5px 5px rebeccapurple;
+
+}
+
+ol{
+    margin-left: 55px;
+    margin-top: 30px;
+    color: red;
+}
+
+ol li{
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-left: 55px;
+}
+
+ol li button{
+    width: 100px;
+    height: 35px;
+    border-radius: 1.2rem;
+    background: red;
+    margin: 15px;
+    margin-top: 25px;
+    font-size: x-large;
+    overflow-y: hidden;
+
+}
