@@ -48,7 +48,7 @@ downloadBtn.addEventListener("click", function () {
 
     doc.setFont("helvetica", "bold");
     doc.setFontSize(18);
-    doc.text("Prince Mishra’s Todo List", 60, 10);
+    doc.text(" Todo List", 60, 10);
 
     doc.setFont("times", "normal");
     doc.setFontSize(14);
@@ -61,4 +61,5 @@ downloadBtn.addEventListener("click", function () {
 
     doc.save("Todo_List.pdf");
 });
+
 
